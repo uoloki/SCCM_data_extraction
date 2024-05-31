@@ -142,7 +142,7 @@ queries = {
 The script will execute the specified SQL queries and save the results to an Excel file named `sccm_data.xlsx`. Each query's results will be saved in a separate sheet within the Excel file. The column widths will be adjusted automatically to fit the content.
 
 ### Log Files
-The script generates log messages to provide detailed information about the execution process, including successful operations and any errors encountered. The logs are printed to the console.
+The script generates log messages to provide detailed information about the execution process, including successful operations and any errors encountered. 
 
 ## Filtering the Excel File
 
@@ -169,9 +169,6 @@ Ensure you have an Excel file (`sccm_data.xlsx`) that contains the data you want
 
 ### Understanding the Output
 The script will read the specified input Excel file, filter the data based on the criteria in the `_Y` columns, and save the filtered data to a new Excel file named `filtered_sccm_data.xlsx`. The column widths in the new file will be adjusted automatically to fit the content.
-
-### Log Files
-The script generates log messages to provide detailed information about the execution process, including successful operations and any errors encountered. The logs are printed to the console.
 
 ## Troubleshooting
 
